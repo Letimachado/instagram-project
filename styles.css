@@ -1,0 +1,52 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: gainsboro;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+
+header{
+    background-color: white;
+}
+header h1{
+    margin: 0;
+    padding: 10px
+}
+
+div.post{
+    background-color: white;
+    margin-top: 10px;
+    
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+
+
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.post img{
+    width: 100%;
+}
+div.cuadro{
+    width: 400px;
+    margin: auto;
+}
